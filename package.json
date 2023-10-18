@@ -1,0 +1,21 @@
+{
+  "name": "clapped.rip-desktop",
+  "version": "1.0.0",
+  "description": "Electron App um clapped.rip als desktop app zu nutzen",
+  "main": "src/main.js",
+  "build": {
+    "appId": "de.fedox.clapped-desktop",
+    "productName": "CLAPPED.RIP - DESKTOP",
+    "icon": "assets/clapped.png"
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "author": "Fedox",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "electron": "^24.1.2",
+    "electron-builder": "^23.6.0"
+  }
+}
